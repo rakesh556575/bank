@@ -47,7 +47,7 @@ class bank():
     def test_login_page(self):
         return self.driver.title()
 
-
+print("test")
 #a1=bank()
 #a1.login("http://www.demo.guru99.com/V4/","mngr97869","AqaqAhu")
 #a1.logout()
