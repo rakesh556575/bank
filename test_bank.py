@@ -48,13 +48,12 @@ class bank():
         return self.driver.title()
 
 
-a1=bank()
-a1.login("http://www.demo.guru99.com/V4/","mngr97869","AqaqAhu")
-a1.logout()
+#a1=bank()
+#a1.login("http://www.demo.guru99.com/V4/","mngr97869","AqaqAhu")
+#a1.logout()
 
-
-#def test():
-#    assert "http://www.demo.guru99.com/V4/index.php"==a1.login("http://www.demo.guru99.com/V4/","mngr97869","AqaqAhu")
+def test():
+    assert "http://www.demo.guru99.com/V4/index.php"==a1.login("http://www.demo.guru99.com/V4/","mngr97869","AqaqAhu")
 
 
 
