@@ -53,7 +53,7 @@ a1=bank()
 #a1.logout()
 
 def test():
-    assert "http://www.demo.guru99.com/V4/index.php"==a1.login("http://www.demo.guru99.com/V4/","mngr97869","AqaqAhu")
+    assert "http://www.demo.guru99.com/V4/manager/Managerhomepage.php"==a1.login("http://www.demo.guru99.com/V4/","mngr97869","AqaqAhu")
 
 
 
