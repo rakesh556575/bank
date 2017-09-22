@@ -9,7 +9,7 @@ logging.basicConfig(filename="sample.log", level=logging.INFO,format='%(asctime)
 
 class bank():
     def __init__(self):
-        self.driver = webdriver.Firefox(executable_path="C:\geckodriver-v0.18.0-win64\geckodriver.exe")
+        self.driver = webdriver.Chrome()
         self.driver.implicitly_wait(10)
 
     def login(self,url,username,password):
